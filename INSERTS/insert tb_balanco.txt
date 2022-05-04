@@ -1,0 +1,12 @@
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (1,'2019','23589.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (2,'2019','65235.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (3,'2019','65599.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (4,'2019','27489.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (5,'2019','32365.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (6,'2019','79539.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (7,'2019','873459.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (8,'2019','34255.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (9,'2019','29769.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (10,'2019','88889.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (11,'2019','3665.99');
+INSERT INTO "tb_balanco" (id_meses,ano,montante) VALUES (12,'2019','49999.99');

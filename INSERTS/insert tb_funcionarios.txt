@@ -1,0 +1,11 @@
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (1,'Vitór Barbosa Alves','2000.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (2,'Beatriz Pinto Silva','2300.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (3,'Kleber Da Silva Pereira','2000.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (4,'Júlia Azevedo Sousa','1500.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (5,'Kai Almeida Barbosa','800.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (6,'Alexandre Mattos','7000.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (1,'José Oliveira Correia','2000.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (2,'Kauã Silva Almeida','2300.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (3,'Murilo Oliveira Ribeiro','2000.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (4,'Fernanda Gomes Melo','1500.00');
+INSERT INTO "tb_funcionario" (id_funcao,nome,salario) VALUES (5,'Raissa Almeida Cardoso','800.00');

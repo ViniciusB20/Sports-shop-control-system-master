@@ -1,0 +1,11 @@
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (1,'Vitór Barbosa Alves');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (2,'Beatriz Pinto Silva');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (3,'Kleber Da Silva Pereira');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (1,'Júlia Azevedo Sousa');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (2,'Kai Almeida Barbosa');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (4,'Alexandre Mattos');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (1,'José Oliveira Correia');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (2,'Kauã Silva Almeida');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (3,'Murilo Oliveira Ribeiro');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (3,'Fernanda Gomes Melo');
+INSERT INTO "tb_fidelidade" (id_nivel,nome) VALUES (2,'Raissa Almeida Cardoso');

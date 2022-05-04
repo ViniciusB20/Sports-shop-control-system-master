@@ -1,0 +1,16 @@
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (1,'Bola Nike','89.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (2,'Altere de 5 kg','35.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (3,'Bola Adidas','99.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (4,'Tenis Asics','189.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (5,'Luva De Boxe','70.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (6,'Sunga Preta','40.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (7,'Raquete Wilson','129.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (8,'Blusa Nike Jordan','100.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (1,'Bola Adidas','99.99');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (2,'Altere de 10 kg','45.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (3,'Colete libero','20.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (4,'Tenis Fila','250.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (5,'Saco de Boxe','150.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (6,'Sunga Amarela','35.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (7,'Pack com bolas','25.00');
+INSERT INTO "tb_produto" (id_categoria,nome,valorunitario) VALUES (8,'Bola','79.99');

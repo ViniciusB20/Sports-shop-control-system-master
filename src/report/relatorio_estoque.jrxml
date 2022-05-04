@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="relatorio_estoque" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="3e542d0f-9028-4862-9e3d-551a03262f3f">
+	<property name="ireport.zoom" value="4.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString>
+		<![CDATA[SELECT p.*, c.nome as "categoria" FROM tb_estoque as p INNER JOIN tb_categoria as c ON (p.id_categoria=c.id) ORDER BY p.id]]>
+	</queryString>
+	<field name="id" class="java.lang.Integer"/>
+	<field name="id_categoria" class="java.lang.Integer"/>
+	<field name="nome" class="java.lang.String"/>
+	<field name="valorunitario" class="java.lang.Double"/>
+	<field name="categoria" class="java.lang.String"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="99" splitType="Stretch">
+			<staticText>
+				<reportElement x="13" y="50" width="405" height="20" uuid="b7dcfb58-87bf-48f4-b08e-b298f732b977"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Av Senhores voadores 777 - Vale Dos Sonhos, Monte Alto,SP,15910-000]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="25" y="70" width="162" height="18" uuid="dc037b4e-8bcf-4834-bd8e-d8c29afd90d4"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Tel : (16)3242-1635]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="65" y="3" width="247" height="47" uuid="a1445adb-ed64-4417-b7ea-646084fad376"/>
+				<textElement>
+					<font size="36" isBold="true" isItalic="true" isUnderline="false"/>
+				</textElement>
+				<text><![CDATA[MVP Esportes]]></text>
+			</staticText>
+			<image>
+				<reportElement x="13" y="-3" width="63" height="56" uuid="6c09ed80-25c2-44c4-89bc-f3f594e48144"/>
+				<imageExpression><![CDATA["C:\\Users\\20111998\\Desktop\\MVP_Esportes_v0.2\\src\\imagens\\iconfinder_trophy_309005.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="37" splitType="Stretch">
+			<staticText>
+				<reportElement x="13" y="7" width="228" height="30" uuid="88eceff3-c3e2-4c75-a38e-619885820ebd"/>
+				<textElement textAlignment="Justified">
+					<font size="22" isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Relatório De Estoque]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="8" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="89" splitType="Stretch">
+			<textField>
+				<reportElement x="49" y="7" width="100" height="20" uuid="7adcfa4b-eb9b-4687-bf67-6a8abd83fcb6"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="13" y="7" width="100" height="20" uuid="4cd1f94a-e919-49d8-93b8-13a1debb0d5e"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[ID:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="13" y="43" width="100" height="20" uuid="08e40c0a-44a2-4891-867b-26dec45e2d58"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Categoria:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="310" y="7" width="100" height="20" uuid="c395e09f-b5af-489b-94b4-21d48f23f388"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nome}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="334" y="41" width="100" height="20" uuid="1b21ea2f-32df-4314-b287-d55ac8c8f30b"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{valorunitario}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="248" y="41" width="100" height="20" uuid="34a2f968-8f95-42f8-91fe-c24b0479d846"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Unidades:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="248" y="7" width="100" height="20" uuid="b92e59db-c8a0-4562-8468-2ea2ea622d93"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<text><![CDATA[Nome :]]></text>
+			</staticText>
+			<line>
+				<reportElement x="13" y="76" width="527" height="1" uuid="c00fd390-4a2f-4ae5-b9cc-f43bf8a9da07"/>
+			</line>
+			<textField>
+				<reportElement x="87" y="43" width="100" height="20" uuid="846c1972-c3d7-4f78-88bd-457e8dabd255"/>
+				<textElement>
+					<font size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{categoria}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="19" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="32" splitType="Stretch">
+			<textField evaluationTime="Report">
+				<reportElement x="540" y="8" width="13" height="20" uuid="68b14f15-656a-478c-bb8c-d2499448db6f"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="464" y="6" width="41" height="20" uuid="092f32e9-e4f1-40c3-aa09-2bebc91a431f"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Pagina ]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="507" y="8" width="15" height="20" uuid="51525e04-c32e-4609-aa6c-97ddb153179c"/>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="523" y="6" width="17" height="20" uuid="7d23ec94-101f-4142-a20d-ca4994202bc3"/>
+				<textElement>
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[de]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="21" splitType="Stretch"/>
+	</summary>
+</jasperReport>
